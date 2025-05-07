@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {TouchableOpacity, View, Text, ScrollView} from 'react-native';
 import stylesUser from '../../styles/stylesUser';
-import InputSection from './InputSection';
+import InputSection from '../ui/InputSection';
 import stylesInput from '../../styles/stylesInput';
 export default function UserInput() {
   const [input, setInput] = useState('');
@@ -58,7 +58,7 @@ export default function UserInput() {
           <InputSection input={input} result={result} />
         </ScrollView>
       </View>
-      
+
       {/* userInput */}
       <View style={stylesUser.section}>
         {values.map((val, index) => {
