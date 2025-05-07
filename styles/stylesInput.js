@@ -6,6 +6,7 @@ export const stylesInput = StyleSheet.create({
     fontSize: 70,
     textAlign: 'right',
     flexShrink: 0,
+    marginRight: 25,
   },
   inputs: {
     padding: 20,
