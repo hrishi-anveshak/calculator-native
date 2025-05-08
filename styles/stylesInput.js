@@ -3,10 +3,15 @@ const {height} = Dimensions.get('window');
 export const stylesInput = StyleSheet.create({
   textResult: {
     color: '#ffff',
-    fontSize: 70,
+    fontSize: 80,
     textAlign: 'right',
     flexShrink: 0,
     marginRight: 25,
+    fontWeight: 500,
+  },
+  section:{
+    justifyContent:'center',
+    marginVertical:'auto',
   },
   inputs: {
     padding: 20,
@@ -20,21 +25,29 @@ export const stylesInput = StyleSheet.create({
   },
   inputSection: {
     flexDirection: 'row',
-    justifyContent: 'space-between',
-    marginHorizontal: 30,
+    justifyContent: 'center',
     alignContent: 'center',
     alignItems: 'center',
-    height: height * 0.2,
+    height: height * 0.4,
   },
   inputScroll: {
     flexDirection: 'row-reverse',
   },
   inputSectionScroll: {
-    height: height * 0.2,
+    height: height * 0.4,
+    justifyContent: 'center',
+    alignContent: 'center',
+
+   
+  },
+  sectionInp: {
+    alignContent: 'center',
   },
   line: {
     borderBottomWidth: 1,
     borderBottomColor: '#4a4a4a',
+    justifyContent: 'center',
+
   },
 });
 
